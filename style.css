@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom, #99998c, #b7b7a4, #ffe8d6, #ddbea9);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+  h1 {
+    font: bold;
+    width: auto;
+    height: 1px;
+    margin-top: 2rem;
+    text-align: center;
+    color: rgb(214, 213, 210);
+  
+      
+  }
+
+
+  .main {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4rem;
+    
+  }
+  
+  .titulo {
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+  }
+
+
+  #subtitulo { 
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+
+  }
+
+  .box {
+    padding: 0.5rem;
+    margin:  0.5rem;
+    box-shadow: 3px 3px 3px 2px rgba(158, 103, 103, 0.2);
+    background-color: #949491;
+    border-radius: 0.5em;
+    width: 25rem;
+    height: 13rem;
+    text-align: center;
+  }
+
+  .btn {
+    border: 0;
+    color: rgb(214, 209, 209);
+    font-weight: bold;
+    background-color: #615554;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 0.5em;
+  }
+
+  .text-input {
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    height: 4em;
+    background-color: #dcdada;
+  }
+
+  #atencao {
+    font-size: 13px;
+    padding: 5px;
+    width: auto;
+    margin: auto;
+    height: 1.5rem;
+  }
+
+  #myFooter{
+    padding-top:30px;
+}
+
+
+#myFooter .footer-copyright{
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(59, 57, 57);
+    font-size: 10px;
+}
+
+#myFooter a{
+  color: #282b2d;
+  font-size: 5px;
+}
+
+#myFooter li{
+  display: inline-block;
+  margin: 0px 5px;
+  line-height: 2;
+}
+
+#myFooter .footer-social{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #b1afae;
+}
+
+
+
+/* CSS utilizado para posicionar o rodapÃ© no final da pÃ¡gina. */
+/* VocÃª pode remover isso. */
+
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.content{
+ flex: 1 0 auto;
+ -webkit-flex: 1 0 auto;
+ min-height: 200px;
+}
+
+#myFooter{
+ flex: 0 0 auto;
+ -webkit-flex: 0 0 auto;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ 
+ 
+}

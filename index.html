@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+     
+  </header> 
+    
+    <h1>Decodificador</h1>
+
+    <main class="main">
+        <section class="form box">
+            <p class="titulo" for="input-texto"><strong>Digite seu texto</strong></p>
+            <textarea class="text-input" name="input-texto" id="entrada" placeholder="Digite aqui o texto que você deseja criptografar ou descriptografar."></textarea>
+            <p id="atencao">Apenas letras minúsculas e sem acento.</p>
+            <button class="btn" id="btn-cripto" onclick="codificar()">Criptografar</button>
+            <button class="btn" id="btn-descripto" onclick="decodificar()">Descriptografar</button>
+        </section>
+        
+
+        <section class="msg box">
+            <p id="subtitulo"><strong>Mensagem criptografada:</strong></p>
+            <textarea class="text-input" name="" id="saida" placeholder="Nenhuma mensagem encontrada. Volte e digite um texto."></textarea>
+            <button class="btn" id="btn-copy" onclick="btnCopy()">Copiar</button>
+          
+        </section>
+
+    </main>
+
+        <footer id="myFooter">
+
+            <div>
+                <p class="footer-copyright">© 2022 - Desenvolvido por Bruna Bastos</p>
+            </div>
+
+       
+                <div class="footer-social">
+                    <ul>
+                        <li>
+                            <a href="https://www.github.com/brubastos">
+                                <img src="images/github.png" alt="ícone github"></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/brunabastooss/">
+                            <img src="images/instagram.png " alt="ícone instragram"/></a> 
+    
+                        </li> 
+                        <li>
+                          <a href="https://www.linkedin.com/in/bruna-bastos-0a6b63178">
+                            <img src="images/linkedin.png" alt="ícone linkedin"/></a>                     
+                        </li>                         
+                      </ul>
+                 </div>      
+         
+      
+    </footer>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
